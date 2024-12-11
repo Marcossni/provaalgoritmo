@@ -1,0 +1,24 @@
+using System;
+
+public class Média
+ {
+public static void Main()
+     {
+        Console.WriteLine("Escreva o primeiro numero: ");
+        double nota1 = double.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Escreva o segundo numero: ");
+        double nota2 = double.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Escreva o terceiro numero: ");
+        double nota3 = double.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Escreva o quarto numero: ");
+        double nota4 = double.Parse(Console.ReadLine());
+        
+        double media = (nota1 + nota2 + nota3 + nota4) / 4;
+        
+       Console.WriteLine ($"A media das notas e: {media}");
+   }
+ }
+  
